@@ -14,6 +14,15 @@
       "Híbrido": "0b657476-f7d8-4062-8f96-dfbebb483d67",
       "Presencial": "92ebb6b1-dd79-4212-9a1d-6da766499a6c"
     }
+  },
+  "mktreal-contratacao": {
+    "name": "MktReal Contratação",
+    "mappings": {
+      "CLT": "83b6680b-0078-40ba-8969-bb2a838bbbc2",
+      "PJ com contrato fixo": "d878fc14-95af-4f1e-9a67-043b8ecee1bc",
+      "PJ com contrato por projeto": "e82595a6-95f3-4cdd-a084-e7affc4d8bf9",
+      "Freelancer projeto": "e82595a6-95f3-4cdd-a084-e7affc4d8bf9"
+    }
   }
 }
 
