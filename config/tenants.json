@@ -1,0 +1,20 @@
+{
+  "tenant-exemplo": {
+    "name": "Tenant Exemplo",
+    "mappings": {
+      "CLT": "ID_EXEMPLO_CLT",
+      "PJ com contrato fixo": "ID_EXEMPLO_PJ_FIXO",
+      "PJ": "ID_EXEMPLO_PJ"
+    }
+  },
+  "mktreal-trabalho": {
+    "name": "MktReal Trabalho",
+    "mappings": {
+      "Remoto": "31925f2c-fc6e-4a5f-a6c3-668556eaebcb",
+      "Híbrido": "0b657476-f7d8-4062-8f96-dfbebb483d67",
+      "Presencial": "92ebb6b1-dd79-4212-9a1d-6da766499a6c"
+    }
+  }
+}
+
+
