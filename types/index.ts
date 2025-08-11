@@ -17,9 +17,7 @@ export interface LabelRequestBody {
   inputValue: string;
 }
 
-export interface LabelResponseBody {
-  ids: string[];
-}
+export type LabelResponseBody = string[];
 
 export interface ApiErrorBody {
   error: string;

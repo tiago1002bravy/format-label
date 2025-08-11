@@ -38,8 +38,7 @@ export async function POST(request: NextRequest, { params }: { params: { tenant:
 
     const labels = splitAndNormalize(body.inputValue);
     const ids = findIdsForLabels(labels, tenantConfig.mappings);
-
-    const response: LabelResponseBody = { ids };
+    const response: LabelResponseBody = ids;
     const durationMs = Date.now() - start;
     console.log(JSON.stringify({ level: "info", requestId, tenant, durationMs, matched: ids.length }));
     return jsonResponse(response, { status: 200, headers: corsHeaders() });
