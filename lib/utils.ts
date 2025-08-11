@@ -10,7 +10,8 @@ export function normalizeLabel(raw: string): string {
 }
 
 export function splitAndNormalize(input: string): string[] {
-  return input
+  const normalizedSeparators = input.replace(/Ω/g, ",");
+  return normalizedSeparators
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
